@@ -36,7 +36,7 @@ export default function Header() {
                 href="#connect "
                 style={{ justifyContent: "flex-end", color: "white" }}
               >
-                Connect
+               <Button variant="primary">Connect Wallet</Button>
               </Nav.Link>
             </Navbar.Collapse>
           </Container>
