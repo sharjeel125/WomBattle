@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <div>
-        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg" className="fixed-top ">
           <Container>
             <img
               src={companyLogo}
